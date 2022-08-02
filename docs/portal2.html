@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portal page</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="fontawesome/css/all.min.css">
+<link rel="stylesheet" href="css/templatemo-style.css">
+<script type='text/javascript' src='//code.jquery.com/jquery-1.10.1.js'></script>
 <style>
+
 body {
   font-family: "Lato", sans-serif;
 }
@@ -35,6 +43,7 @@ body {
   display: block;
   transition: 0.3s;
 }
+
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -82,14 +91,17 @@ body {
 }
 
 .active, .collapsible:hover {
-  background-color: rgb(27, 129, 1);
+  background-color: #128ecb;
+
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #938;
+  background-color: rgb(16, 17, 17);
+
+
 }
 /*collapsible style end */
 
@@ -105,7 +117,40 @@ body {
 }
 </style>
 </head>
+
+
 <body>
+    <!-- Page Loader -->
+  
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+          <i class="fas fa-film mr-2"></i>
+          Solutions Architect Workspace
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+              <a class="nav-link nav-link-1 " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link nav-link-2" href="portal2.html">Portal</a>
+          </li>
+          <!--li class="nav-item">
+              <a class="nav-link nav-link-3" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link nav-link-4" href="contact.html">Contact</a>
+          </li-->
+      </ul>
+      </div>
+  </div>
+</nav>
+
+<!----->
 
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -133,15 +178,23 @@ body {
     <div class="content">
       <p>All ideas are reviewed and considered by our product team. Most ideas share similarities with ideas from other people and all of those are categorized and gathered together and used to inform our feature planning to help us bring value to as many use cases as possible. Some ideas are already under consideration and some ideas are probably not something we will ever consider, so not all ideas make it to our public roadmap. When we have decided to explore a feature or enhancement we will add it to the public roadmap in Under Consideration to help us gather more insight from you.</p>
     </div>
-    <button type="button" class="collapsible">Open Section 2</button>
+    <button type="button" class="collapsible">How do you decide and prioritize what features to build?
+    </button>
     <div class="content">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <button type="button" class="collapsible">Open Section 3</button>
+    <button type="button" class="collapsible">What does Under Consideration mean?</button>
     <div class="content">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    
+    <button type="button" class="collapsible">What does Planned mean?</button>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <button type="button" class="collapsible">How long does it take for a feature to be released?</button>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
 </div>
 
 <div id="main">
